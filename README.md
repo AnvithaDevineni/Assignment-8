@@ -26,7 +26,7 @@ Vulnerability #1: SQL Injection
 
 Vulnerbility #2: Session Hijacking/Fixation
 -
-
+![](SessionHijacking.gif)
 - By setting the current session ID to an older session ID from a user that has been previously logged in, the The user can log in without a username or password by setting the current session ID to an old session ID from a previously logged in user. 
 
 - In order to prevent this, sites may regenerate session ID's every half hour. This will prevent illegal log-ins using expired session ID's.
@@ -40,6 +40,7 @@ Vulnerability #1: Username Enumeration
 - I was able to find that the developer assigns two different classes, "failed"/"failure" to the error messsage in accordance to the log-in occurance. I was able to find this by using Google Chrome's debugging tool. 
 
 Vulnerability #2: Cross-Site Scripting (XSS)
+-
 
 - People can inject XSS in the feedback form-- for example : <script>alert('attacker is here XSS');</script> 
 
