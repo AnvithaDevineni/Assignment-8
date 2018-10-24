@@ -56,6 +56,7 @@ Vulnerability #1: Insecure Direct Object Reference
 
 Vulnerability #2: Cross-Site Requeest Forgery (CSRF)
 -
+![](CrossSite.gif)
 - User will have permission to update information in the database through the "edit pages" without a valid CSRF token.
 
 - In order to prevent this, sites should / can / are validate the CSRF tokens on forms. This will reulst in an invalid request error on forms with invalid CSRF tokens. 
