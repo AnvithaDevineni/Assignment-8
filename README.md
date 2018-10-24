@@ -19,7 +19,7 @@ Blue:
 -
 Vulnerability #1: SQL Injection
 -
-
+![](SQLInjection.gif)
 - User may inject SQL code into the salesperson page (URL). They just have to request %27%20OR%20SLEEP(5)=0%27 in the stead of the salesperson's ID number
 
 - In order to prevent this sites may sanitize URL input paramaters with the command "mysql_real_escape_string()"
