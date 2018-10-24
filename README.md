@@ -35,6 +35,8 @@ Green:
 -
 Vulnerability #1: Username Enumeration
 -
+![](UsernameEnum.gif)
+
 - The error here, is that the failure to log in message is different from the username that exists and the username that does not exist. 
 
 - I was able to find that the developer assigns two different classes, "failed"/"failure" to the error messsage in accordance to the log-in occurance. I was able to find this by using Google Chrome's debugging tool. 
