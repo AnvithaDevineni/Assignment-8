@@ -48,6 +48,7 @@ Red:
 -
 Vulnerability #1: Insecure Direct Object Reference
 -
+
 -By modifying the ID parameter in the URL (change GET request), a person can get access to hidden user's accounts. 
 
 Vulnerability #2: Cross-Site Requeest Forgery (CSRF)
