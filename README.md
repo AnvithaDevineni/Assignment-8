@@ -1,17 +1,17 @@
 Project 8 Pentesting Live Targets
 
-Time spent: ___ hours spent in total
+Time spent: 10 hours spent in total
 
 Objective: identify vulnerabilities in three different version of the Globitek website: blue, green, and red.
 
 6 exploits possible:
 
-Username Enumeration
-Insecure Direct Object Reference (IDOR)
-SQL Injection (SQLi)
-Cross-Site Scripting (XSS)
-Cross-Site Request Forgery (CSRF)
-Session Hijacking/Fixation
+- Username Enumeration
+- Insecure Direct Object Reference (IDOR)
+- SQL Injection (SQLi)
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Session Hijacking/Fixation
 
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
 
