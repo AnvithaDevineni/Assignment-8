@@ -43,7 +43,7 @@ Vulnerability #1: Username Enumeration
 
 Vulnerability #2: Cross-Site Scripting (XSS)
 -
-
+![](XSS1.gif) ![](XSS2.gif)
 - People can inject XSS in the feedback form-- for example : <script>alert('attacker is here XSS');</script> 
 
 
